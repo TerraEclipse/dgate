@@ -1,5 +1,5 @@
 {
-  "name": "@terraeclipse/dgate",
+  "name": "terraeclipse-dgate",
   "description": "Domain gateway, a simple clustered HTTP virtual host router",
   "version": "0.6.5",
   "bin": "./bin/dgate",

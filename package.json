@@ -2,7 +2,9 @@
   "name": "terraeclipse-dgate",
   "description": "Domain gateway, a simple clustered HTTP virtual host router",
   "version": "0.6.5",
-  "bin": "./bin/dgate",
+  "bin": {
+    "dgate": "./bin/dgate"
+  },
   "scripts": {
     "test": "./node_modules/.bin/mocha --reporter spec --timeout 10s --bail test/test.js"
   },
